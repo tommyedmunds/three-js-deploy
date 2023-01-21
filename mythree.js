@@ -1,6 +1,5 @@
 const noise = new SimplexNoise();
 
-const texture = new THREE.TextureLoader().load('assets/mercury.jpeg');
 let count = 0;
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
