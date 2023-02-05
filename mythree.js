@@ -23,7 +23,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
-camera.position.set(12, 2, 25);
+camera.position.set(2, 2, 10);
 
 // create an AudioListener and add it to the camera
 const listener = new THREE.AudioListener();
